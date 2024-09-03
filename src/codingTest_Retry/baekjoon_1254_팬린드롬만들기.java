@@ -24,7 +24,7 @@ public class baekjoon_1254_팬린드롬만들기 {
         return S.length()*2-1;
     }
 
-    public static boolean isPalindrome(String s){   // 팬린드롬인지 확인
+    public static boolean isPalindrome(String s){   // 팬린드롬인지 확인하는 로직
 
         int left = 0;
         int right = s.length()-1;
